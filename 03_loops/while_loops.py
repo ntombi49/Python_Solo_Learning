@@ -93,9 +93,9 @@ while i < 5:
 
 # 2 Anatomy of a while loop
 
-while condition:     #This is an expression that evaluates to True or False
-    body_line_1      #This is the body, they run everytime the conditions is True 
-    body_line_2      #when the condition becomes False, the loop stops and execution continues after the loop
+# while condition:     #This is an expression that evaluates to True or False
+    # body_line_1      #This is the body, they run everytime the conditions is True 
+    # body_line_2      #when the condition becomes False, the loop stops and execution continues after the loop
     ...
 # code here runs after loop ends
 
