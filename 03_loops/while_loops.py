@@ -11,7 +11,7 @@ while count <= 5:     #keep looping as long as count is less than or equal to 5.
 # A while loop repeats a block of code as long as a condition is True.    
 # Basic shape:
     
-    while condition:
+    # while condition:
         # code to repeat
 # Think of it like:
 # “Keep doing this while the question is yes.”
