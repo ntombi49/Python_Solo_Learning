@@ -88,18 +88,18 @@
 
 #Practice Problems
 
-#1
-# foods = ['food1', 'food2', 'food3', 'food4', 'food5']
-# print(foods[0])
-# print(foods[4])
+1
+foods = ['food1', 'food2', 'food3', 'food4', 'food5']
+print(foods[0])
+print(foods[4])
 
 # #2
 # foods.append('food6')
 # print(foods)
 
-# #3
-# foods.remove('food1')
-# print(foods)
+#3
+foods.remove('food1')
+print(foods)
 
 # #4
 # for food in foods:
