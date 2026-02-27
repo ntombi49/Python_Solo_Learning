@@ -16,26 +16,26 @@
 # # |   `>=`   | Greater than or equal to | `5 >= 5` | ✅ True |
 # # |   `<=`   | Less than or equal to    | `4 <= 6` | ✅ True |
 
-# # 💻 Example 1: Checking equality
-# age = 18
-# print(age == 18)  # True
-# print(age != 21)  # True
+# 💻 Example 1: Checking equality
+age = 18
+print(age == 18)  # True
+print(age != 21)  # True
 
-# # 💻 Example 2: Comparing numbers
-# x = 10
-# y = 5
+# 💻 Example 2: Comparing numbers
+x = 10
+y = 5
 
-# print(x > y)   # True
-# print(x < y)   # False
-# print(x >= 10) # True
-# print(y <= 5)  # True
+print(x > y)   # True
+print(x < y)   # False
+print(x >= 10) # True
+print(y <= 5)  # True
 
-# # 💻 Example 3: Using with strings
-# # You can also compare text (strings).
+# 💻 Example 3: Using with strings
+# You can also compare text (strings).
 
-# name = "Ntombi"
-# print(name == "Ntombi")   # True
-# print(name != "John")     # True
+name = "Ntombi"
+print(name == "Ntombi")   # True
+print(name != "John")     # True
 
 
 # 📝 Remember: string comparisons are case-sensitive
