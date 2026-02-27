@@ -10,14 +10,14 @@ student = {
     "age": 20,
     "course": "Python"
 }
-# # Here:
+# Here:
 
-# # "name", "age" , and "course" are keys
-# # "Ntombi", 20, and "Python" are values
-# # So you can think of a dictionary as a mini database — it stores what something is (key) and the detail about it (value).
+# "name", "age" , and "course" are keys
+# "Ntombi", 20, and "Python" are values
+# So you can think of a dictionary as a mini database — it stores what something is (key) and the detail about it (value).
 
-# # 🧩 Creating a Dictionary
-# # You create it with curly braces {} and separate each key-value pair using a colon :.
+# 🧩 Creating a Dictionary
+# You create it with curly braces {} and separate each key-value pair using a colon :.
 
 person = {"name": "Liya", "age": 25, "city": "Durban"}
 
@@ -27,17 +27,17 @@ person["name"] = "Liya"
 person["age"] = 25
 person["city"] = "Durban"
 
-# # 🔍 Accessing Values
-# # Use the key name to get its value:
-# print(person["name"])  # Output: Liya
-# # If you try a key that doesn’t exist, Python will give an error
+# 🔍 Accessing Values
+# Use the key name to get its value:
+print(person["name"])  # Output: Liya
+# If you try a key that doesn’t exist, Python will give an error
 
-# # To safely access values, use .get():
+# To safely access values, use .get():
 
-# print(person.get("hobby", "Not found"))  # Output: Not found
+print(person.get("hobby", "Not found"))  # Output: Not found
 
-# # ✏️ Adding or Updating Values
-# # You can update or add new key-value pairs easily:
+# ✏️ Adding or Updating Values
+# You can update or add new key-value pairs easily:
 
 person["age"] = 26         # Update age
 person["hobby"] = "Reading"  # Add new key
@@ -49,13 +49,13 @@ person.pop("city")      # Removes key 'city'
 del person["hobby"]     # Removes key 'hobby'
 person.clear()          # Removes everything
 
-# # 🔁 Looping Through a Dictionary
-# # You can loop through:
+# 🔁 Looping Through a Dictionary
+# You can loop through:
     
-# # Keys
-# # Values
-# # Both (items)
-# # Example:
+# Keys
+# Values
+# Both (items)
+# Example:
 
 student = {"name": "Thami", "age": 21, "grade": "A"}
 
